@@ -17,3 +17,8 @@ To use, drop the file in the protected/components folder and follow the example 
             )),
         'ASC' //sort order ASC or DESC (defaults to DESC)
     );
+    
+##TODO
+*   Refactor to prepare UNION query
+*   Support eager loading and relational conditions on any of the models used in DataProvider config
+*   Use CDbCriteria for DataProvider config instead of current API
